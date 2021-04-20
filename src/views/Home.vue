@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <van-button type="primary">dfgu</van-button>
+    <div>你好</div>
+    
   </div>
 </template>
 
@@ -11,3 +12,15 @@ export default {
  
 }
 </script>
+<style lang="less" scoped>
+.home {
+  div {
+    background: grey;
+    width: 150px;
+    height: 150px;
+    font-size: 18px;
+  }
+ 
+}
+
+</style>

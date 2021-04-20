@@ -6,6 +6,8 @@ import {
   Button
 } from 'vant'
 
+import 'lib-flexible/flexible'
+
 Vue.use(Button)
 Vue.config.productionTip = false
 
